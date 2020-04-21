@@ -1,0 +1,45 @@
+@charset "UTF-8";
+ img{
+            display: block;
+            margin:0 auto;
+        }
+        body{
+            background: ivory;
+        }
+        #div1{
+            margin: 0 auto;
+            width: 956px;
+            height:600px;
+            background: url(imgs/1111.png);
+            border: 4px dashed indianred;
+            border-radius: 3%;
+        }
+        input[type="submit"]{
+        margin-left: 25px;
+        border-radius:10px;
+            width:60px; 
+        	height:30px;
+        	background-color: gray;
+        	font-size:20px;
+        }
+        input[type="reset"]{
+        margin-left: 25px;
+        border-radius:10px;
+            width:60px; 
+        	height:30px;
+        	background-color:  gray;
+        	font-size:20px;
+        }
+        table{
+            background-color: blanchedalmond;
+        
+            height: 300px;
+            border-radius: 3%;
+            
+            margin: 0 auto;
+            
+            text-align: right;
+        }
+        input[type="text"]{
+            font-size: 18px;
+        }

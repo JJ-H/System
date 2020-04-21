@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body style="background:url(imgs/register.png)">
+	 <img style="display:block; margin: 0 auto;"src="imgs/welcome_logo.png" alt="">
+        <h1 style="color:indianred; text-align: center;">用户注册表</h1>
+        <div id="div1">
+                <br/><br/><br/><br/><br/>
+            <form action="check_register.jsp" method="post">
+                    <table>
+                    	<tr><td>姓&nbsp;&nbsp;&nbsp;名:</td><td><input class="border-radius" type="text" name="name" required/></td></tr>
+                        <tr><td>密&nbsp;&nbsp;&nbsp;码:</td><td><input class="border-radius" type="password" name="pwd" required/></td></tr>
+                        
+                        <tr><td>身份证号:</td><td><input class="border-radius" type="text" name="personid" required/></td></tr>
+                        <tr><td>性&nbsp;&nbsp;&nbsp;别:</td><td><input type="radio" name="sex" value="男" checked/>男&nbsp;&nbsp;<input type="radio" name="sex" value="女"/>女</td></tr>
+                        <tr><td>电子邮件:</td><td><input class="border-radius" type="email" name="email" required/></td></tr>
+                        <tr><td>电&nbsp;&nbsp;&nbsp;话:</td><td><input class="border-radius" type="text" name="tel" required/></td></tr>
+                        <tr><td colspan="2">&nbsp;&nbsp;&nbsp;<input type="submit" value="注册"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="重置"/></td></tr>
+                    </table>       
+            </form>
+        </div>
+</body>
+</html>
